@@ -36,9 +36,7 @@ context "Challenge III: Retrieving Data" do
   end
 end
 
-def shipping_manifest
-shipping_manifest["oil paintings"]
-end
+
 
 context "Challenge IV: Adding Data" do 
   describe "#adding" do 
