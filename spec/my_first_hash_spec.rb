@@ -11,6 +11,11 @@ context "Challenge I: Instantiating Hashes" do
   end
 end
 
+def my_hash
+ my_hash = {"student" => "Hannah", "hobby" => "Drawing"}
+end
+  
+
 context "Challenge II: Hash with Data" do 
   describe "#shipping_manifest" do 
     it "returns a hash with key/value pairs describing old-timey items" do 
@@ -19,13 +24,21 @@ context "Challenge II: Hash with Data" do
     end
   end
 end
-
+def shipping_manifest
+  shipping_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3}
+end
+  
 context "Challenge III: Retrieving Data" do 
   describe "#retrieval" do 
     it "operates on the shipping_manifest hash to return the value of the 'oil paintings' key" do 
       expect(retrieval).to eq(3)
     end
   end
+end
+
+def shipping_manifest
+
+  shipping_manifest["oil paintings"]
 end
 
 context "Challenge IV: Adding Data" do 
