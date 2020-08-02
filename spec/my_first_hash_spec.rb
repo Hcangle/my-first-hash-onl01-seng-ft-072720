@@ -53,3 +53,7 @@ context "Challenge IV: Adding Data" do
     end
   end
 end
+
+def adding
+  
+
