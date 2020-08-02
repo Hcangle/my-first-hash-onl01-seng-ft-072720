@@ -37,7 +37,8 @@ context "Challenge III: Retrieving Data" do
 end
 def retrieval
   shipping_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3}
- 
+  shipping_manifest["oil paintings"]
+end
 
 context "Challenge IV: Adding Data" do 
   describe "#adding" do 
